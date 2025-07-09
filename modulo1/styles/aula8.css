@@ -29,6 +29,7 @@ p {
   font-size: 15px;
   text-align: justify;
   padding: 5px;
+  margin-bottom: -5px;
 }
 
 ul li {
@@ -37,9 +38,7 @@ ul li {
   font-size: 15px;
   text-align: justify;
   padding: 5px;
-}
-a {
-  text-decoration: none;
+  margin-bottom: -5px;
 }
 
 footer {
@@ -48,4 +47,29 @@ footer {
   border-radius: 10px;
   padding: 10px;
   box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.096);
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-flex;
+  box-shadow: 1px 1px 5px 1px rgba(77, 76, 76, 0.034);
+  border-radius: 10px;
+}
+
+.menu a {
+  display: inline-block;
+  background-color: rgba(179, 178, 178, 0.37);
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: rgba(161, 252, 255, 0.884);
+  color: black;
+  text-decoration: none;
 }
